@@ -23,18 +23,11 @@ The dataset used in this project is obtained from Kaggle(https://www.kaggle.com/
 ## Installation
 To run this project, you need to have Python installed along with the necessary libraries. You can install the required dependencies using the following command:
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Gayathri-Selvaganapathi/customer_churn_prediction.git
-cd customer-churn-prediction
-pip install -r requirements.txt
-```
-2. Load the dataset:
+1. Load the dataset:
 
 Place the data.csv file in the root directory of the project.
 
-3. Run the Jupyter Notebook:
+2. Run the Jupyter Notebook:
 
 Open the Customer_Churn_Prediction.ipynb file in Jupyter Notebook or JupyterLab and run the cells to build and evaluate the model.
 
