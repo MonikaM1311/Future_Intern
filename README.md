@@ -3,7 +3,7 @@
 Future Intern Projects
 This repository contains my three project tasks completed as part of the Future Intern program, covering data analysis, machine learning, and AI chatbot development.
 
-Task 1 — Retail Sales Forecasting Dashboard
+# Task 1 — Retail Sales Forecasting Dashboard
 Objective: Develop an AI-powered dashboard to forecast retail sales using historical transaction data.
 
 Key Steps:
@@ -26,7 +26,7 @@ Business insights for inventory planning and promotional strategy.
 
 Tools: Python (Pandas, Scikit-learn, Prophet), Power BI, Excel.
 
-Task 2 — Sentiment Analysis on Product Reviews
+# Task 2 — Sentiment Analysis on Product Reviews
 Objective: Analyze customer reviews to detect sentiment polarity (positive, neutral, negative) and generate insights.
 
 Key Steps:
@@ -43,7 +43,7 @@ Visualized sentiment trends using bar charts, word clouds, and confusion matrice
 
 Tools: Python (NLTK, Scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn).
 
-Task 3 — AI Chatbot for Customer Support
+# Task 3 — AI Chatbot for Customer Support
 Objective: Build and deploy a smart chatbot for real-time customer support queries using AI tools.
 
 Key Steps:
@@ -60,7 +60,7 @@ Deployed chatbot via Docker for easy scalability.
 
 Tools: Rasa, Dialogflow, OpenAI GPT, Streamlit, Telegram Bot API, Python, Docker.
 
-How to Navigate This Repo
+# How to Navigate This Repo
 Each task is stored in its own folder (Task1/, Task2/, Task3/).
 
 Inside each folder:
@@ -71,7 +71,7 @@ Data → cleaned datasets or links to sources.
 
 Docs → README or instructions for running the project.
 
-Skills Gained
+# Skills Gained
 Data preprocessing, feature engineering
 
 Time series forecasting
