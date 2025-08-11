@@ -1,69 +1,83 @@
 # Future_Intern
 
-📌 Task 1 Overview :
-As described on Future Interns, Task 1 is a real-world project where you build an AI‑powered predictive analytics dashboard to help retail businesses forecast future sales using historical transaction data. That includes cleaning data, modeling, and presenting insights via an interactive dashboard 
+Future Intern Projects
+This repository contains my three project tasks completed as part of the Future Intern program, covering data analysis, machine learning, and AI chatbot development.
 
-🎯 What You’ll Do
-Clean and preprocess historical retail sales data
+Task 1 — Retail Sales Forecasting Dashboard
+Objective: Develop an AI-powered dashboard to forecast retail sales using historical transaction data.
 
-Engineer features: seasonality, trends, holiday spikes, monthly averages
+Key Steps:
 
-Train a time series forecasting model (ARIMA, Facebook Prophet, XGBoost, etc.)
+Data cleaning and preprocessing of sales history.
 
-Build a dashboard (preferably in Power BI) showing actual vs. predicted sales
+Feature engineering (seasonality, trends, monthly averages, holidays).
 
-Highlight top categories, regional filters, and decision-oriented KPIs 
+Model training (Prophet, ARIMA, XGBoost) and evaluation using MAE, RMSE, MAPE.
 
-Provide business insights and recommendations based on the forecast
+Interactive Power BI dashboard showing:
 
-🛠 Tools & Skills Used
+Actual vs predicted sales
 
-Python (Prophet or ARIMA, Pandas, Scikit‑learn)
+KPI metrics
 
-Power BI Desktop for interactive dashboards
+Filters by category/region
 
-Jupyter Notebook (or Google Colab) for EDA and model development
+Business insights for inventory planning and promotional strategy.
 
-Excel for optional preprocessing
+Tools: Python (Pandas, Scikit-learn, Prophet), Power BI, Excel.
 
-Forecasting performance metrics (MAE, RMSE, MAPE)
+Task 2 — Sentiment Analysis on Product Reviews
+Objective: Analyze customer reviews to detect sentiment polarity (positive, neutral, negative) and generate insights.
 
-🧪 Step-by-Step Prep Plan
-1.Data Collection & Exploration
+Key Steps:
 
-Gather a retail sales dataset (e.g. Rossmann sales or Kaggle retail sales)
+Collected and preprocessed product review dataset (tokenization, stopword removal, lemmatization).
 
-Explore it in Pandas: detect missing data, seasonality, trends
+Performed EDA to understand word frequency, sentiment distribution, and common themes.
 
-2.Feature Engineering
+Trained NLP models (Logistic Regression, Naive Bayes, LSTM) on labeled data.
 
-Add calendar features: month, weekday, holiday indicators
+Evaluated performance using accuracy, precision, recall, and F1-score.
 
-Compute rolling averages or lagged sales features
+Visualized sentiment trends using bar charts, word clouds, and confusion matrices.
 
-3.Model Building
+Tools: Python (NLTK, Scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn).
 
-Train a Prophet model or classic time-series model (ARIMA/XGBoost)
+Task 3 — AI Chatbot for Customer Support
+Objective: Build and deploy a smart chatbot for real-time customer support queries using AI tools.
 
-Tune seasonality, holiday components, and trend hyperparameters
+Key Steps:
 
-Evaluate using MAE, RMSE, MAPE
+Designed conversational flows for FAQs, support queries, and fallback handling.
 
-4.Dashboard Development
+Trained intent recognition and entity extraction models using Rasa/Dialogflow and a Kaggle customer support dataset.
 
-Use Power BI Desktop
+Integrated OpenAI GPT for dynamic fallback responses.
 
-Include visuals: line charts (actual vs forecast), error KPI cards, slicers by category/store/region
+Built Streamlit web interface and Telegram bot integration.
 
-Add drilldowns or play-axis if possible
+Deployed chatbot via Docker for easy scalability.
 
-5.Insights & Reporting
+Tools: Rasa, Dialogflow, OpenAI GPT, Streamlit, Telegram Bot API, Python, Docker.
 
-Summarize forecast accuracy, trends, high/low season periods, category-level insights
+How to Navigate This Repo
+Each task is stored in its own folder (Task1/, Task2/, Task3/).
 
-Provide recommendations (e.g. inventory planning, promotions during dips)
+Inside each folder:
 
-6.Documentation or Demo
+Code → .py or .ipynb files.
 
-Prepare a concise great-looking presentation or video walkthrough explaining your dashboard and findings, similar to peer examples
+Data → cleaned datasets or links to sources.
 
+Docs → README or instructions for running the project.
+
+Skills Gained
+Data preprocessing, feature engineering
+
+Time series forecasting
+
+Sentiment analysis & NLP modeling
+
+Chatbot development & deployment
+
+Dashboard creation and data visualization
