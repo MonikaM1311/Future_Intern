@@ -1,7 +1,9 @@
-Future_Intern
+#Future_Intern
+
+
 📌 Task 1 Overview : As described on Future Interns, Task 1 is a real-world project where you build an AI‑powered predictive analytics dashboard to help retail businesses forecast future sales using historical transaction data. That includes cleaning data, modeling, and presenting insights via an interactive dashboard
 
-🎯 What You’ll Do Clean and preprocess historical retail sales data
+#🎯 What You’ll Do Clean and preprocess historical retail sales data
 
 Engineer features: seasonality, trends, holiday spikes, monthly averages
 
@@ -13,7 +15,7 @@ Highlight top categories, regional filters, and decision-oriented KPIs
 
 Provide business insights and recommendations based on the forecast
 
-🛠 Tools & Skills Used
+#🛠 Tools & Skills Used
 
 Python (Prophet or ARIMA, Pandas, Scikit‑learn)
 
@@ -25,7 +27,9 @@ Excel for optional preprocessing
 
 Forecasting performance metrics (MAE, RMSE, MAPE)
 
-🧪 Step-by-Step Prep Plan 1.Data Collection & Exploration
+#🧪 Step-by-Step Prep Plan 
+
+1.Data Collection & Exploration
 
 Gather a retail sales dataset (e.g. Rossmann sales or Kaggle retail sales)
 
