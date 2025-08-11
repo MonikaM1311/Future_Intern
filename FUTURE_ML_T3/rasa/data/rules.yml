@@ -1,0 +1,11 @@
+version: "3.1"
+rules:
+- rule: Handle low confidence
+  steps:
+  - intent: other
+  - action: action_fallback_response
+
+- rule: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
